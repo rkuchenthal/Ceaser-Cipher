@@ -55,7 +55,7 @@ namespace CaesarCipher
             }            
         }
 
-        static string Cipher(string text, char[] alph, bool flag)
+        private static string Cipher(string text, char[] alph, bool flag)
         {
             //input array
             char[] secretMessage = text.ToCharArray();
